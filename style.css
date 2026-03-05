@@ -1,82 +1,213 @@
 body{
-    font-family: system-ui;
-    background:#0f172a;
-    color:white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
+
+font-family:system-ui;
+
+background:#eef2f5;
+
+margin:0;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+height:100vh;
+
 }
+
 
 .app{
-    width:420px;
-}
 
-h1{
-    text-align:center;
-}
-
-.chat{
-
-    display:flex;
-    gap:20px;
-
-    background:#1e293b;
-    padding:20px;
-
-    border-radius:10px;
-}
-
-.avatarBox{
-
-    width:100px;
+width:900px;
 
 }
+
+
+header{
+
+text-align:center;
+
+margin-bottom:20px;
+
+}
+
+
+.subtitle{
+
+color:#666;
+
+}
+
+
+.main{
+
+display:flex;
+
+gap:20px;
+
+}
+
+
+.chatPanel{
+
+background:white;
+
+flex:1;
+
+border-radius:10px;
+
+padding:20px;
+
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+
+display:flex;
+
+flex-direction:column;
+
+height:500px;
+
+}
+
+
+#chatLog{
+
+flex:1;
+
+overflow-y:auto;
+
+margin-bottom:10px;
+
+}
+
+
+.bubble{
+
+background:#e8f0fe;
+
+padding:10px 14px;
+
+border-radius:10px;
+
+margin-bottom:8px;
+
+max-width:80%;
+
+}
+
+
+.bot{
+
+align-self:flex-start;
+
+}
+
+
+.botStatus{
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+}
+
 
 #avatar{
 
-    width:100%;
-    image-rendering: pixelated;
+width:70px;
+
+image-rendering:pixelated;
 
 }
 
-.message{
 
-    font-size:20px;
-    line-height:1.4;
+.typing{
 
-}
+color:#777;
 
-.controls{
-
-    margin-top:20px;
-    text-align:center;
+font-size:14px;
 
 }
 
-button{
-
-    background:#3b82f6;
-    border:none;
-    padding:12px 18px;
-
-    border-radius:6px;
-
-    color:white;
-    font-size:16px;
-
-    cursor:pointer;
-
-}
-
-button:hover{
-
-    background:#2563eb;
-
-}
 
 .feedback{
 
-    margin-top:15px;
-    text-align:center;
+margin-top:10px;
+
+display:flex;
+
+gap:10px;
+
+}
+
+
+button{
+
+background:#0a66c2;
+
+color:white;
+
+border:none;
+
+padding:10px 14px;
+
+border-radius:6px;
+
+cursor:pointer;
+
+}
+
+
+button:hover{
+
+background:#004182;
+
+}
+
+
+button:disabled{
+
+opacity:0.5;
+
+}
+
+
+.codePanel{
+
+width:360px;
+
+background:#1e1e1e;
+
+color:#eee;
+
+border-radius:10px;
+
+padding:15px;
+
+font-family:monospace;
+
+overflow:auto;
+
+}
+
+
+.codeHeader{
+
+display:flex;
+
+justify-content:space-between;
+
+margin-bottom:10px;
+
+}
+
+
+pre{
+
+white-space:pre-wrap;
+
+font-size:13px;
+
 }

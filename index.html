@@ -1,51 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta charset="UTF-8">
-<title>Story Generator Bot</title>
+<title>Procedural Story Generator</title>
+
+<link rel="stylesheet" href="style.css">
 
 <script src="https://cdn.jsdelivr.net/pyodide/v0.26.2/full/pyodide.js"></script>
 <script defer src="main.js"></script>
-
-<style>
-body{
-    font-family: sans-serif;
-    text-align:center;
-}
-
-#avatar{
-    width:220px;
-    image-rendering: pixelated;
-}
-
-#sentence{
-    font-size:22px;
-    margin:20px;
-}
-
-button{
-    font-size:18px;
-    margin:10px;
-    padding:10px 20px;
-}
-</style>
 
 </head>
 
 <body>
 
-<h1>Story Generator Bot</h1>
+<div class="app">
+
+<header>
+
+<h1>Procedural Story Generator</h1>
+
+<p class="subtitle">
+Interactive procedural text generation (Python running in the browser)
+</p>
+
+</header>
+
+
+<div class="main">
+
+<!-- CHAT -->
+
+<div class="chatPanel">
+
+<div id="chatLog"></div>
+
+<div class="botStatus">
 
 <img id="avatar" src="images/think.png">
 
-<div id="sentence"></div>
+<div id="typing" class="typing">Thinking...</div>
 
-<button onclick="startThinking()">Ask the bot</button>
+</div>
 
-<br>
+<div class="feedback">
 
-<button onclick="feedback(true)">👍 makes sense</button>
-<button onclick="feedback(false)">👎 nonsense</button>
+<button onclick="feedback(true)">👍 Makes sense</button>
+
+<button onclick="feedback(false)">👎 Nonsense</button>
+
+</div>
+
+</div>
+
+
+<!-- CODE PANEL -->
+
+<div class="codePanel">
+
+<div class="codeHeader">
+
+<span>Python generator</span>
+
+<button onclick="toggleCode()">Show / Hide</button>
+
+</div>
+
+<pre id="codeBlock"></pre>
+
+</div>
+
+</div>
+
+<footer>
+
+Python executed client-side using Pyodide.
+
+</footer>
+
+</div>
 
 </body>
 </html>
