@@ -1,0 +1,132 @@
+{
+  "verbi": {
+    "mangiare": {
+      "presente": ["mangio","mangi","mangia","mangiamo","mangiate","mangiano"],
+      "passato_prossimo": "mangiato"
+    },
+    "sognare": {
+      "presente": ["sogno","sogni","sogna","sogniamo","sognate","sognano"],
+      "passato_prossimo": "sognato"
+    },
+    "cadere": {
+      "presente": ["cado","cadi","cade","cadiamo","cadete","cadono"],
+      "passato_prossimo": "cadut"
+    },
+    "correre": {
+      "presente": ["corro","corri","corre","corriamo","correte","corrono"],
+      "passato_prossimo": "cors"
+    },
+    "partire": {
+      "presente": ["parto","parti","parte","partiamo","partite","partono"],
+      "passato_prossimo": "partit"
+    },
+    "arrivare": {
+      "presente": ["arrivo","arrivi","arriva","arriviamo","arrivate","arrivano"],
+      "passato_prossimo": "arrivat"
+    },
+    "entrare": {
+      "presente": ["entro","entri","entra","entriamo","entrate","entrano"],
+      "passato_prossimo": "entrat"
+    },
+    "uscire": {
+      "presente": ["esco","esci","esce","usciamo","uscite","escono"],
+      "passato_prossimo": "uscit"
+    },
+    "salire": {
+      "presente": ["salgo","sali","sale","saliamo","salite","salgono"],
+      "passato_prossimo": "salit"
+    },
+    "scendere": {
+      "presente": ["scendo","scendi","scende","scendiamo","scendete","scendono"],
+      "passato_prossimo": "sces"
+    },
+    "trovare": {
+      "presente": ["trovo","trovi","trova","troviamo","trovate","trovano"],
+      "passato_prossimo": "trovat"
+    },
+    "cercare": {
+      "presente": ["cerco","cerchi","cerca","cerchiamo","cercate","cercano"],
+      "passato_prossimo": "cercat"
+    },
+    "guardare": {
+      "presente": ["guardo","guardi","guarda","guardiamo","guardate","guardano"],
+      "passato_prossimo": "guardat"
+    },
+    "sentire": {
+      "presente": ["sento","senti","sente","sentiamo","sentite","sentono"],
+      "passato_prossimo": "sentit"
+    },
+    "aprire": {
+      "presente": ["apro","apri","apre","apriamo","aprite","aprono"],
+      "passato_prossimo": "apert"
+    },
+    "chiudere": {
+      "presente": ["chiudo","chiudi","chiude","chiudiamo","chiudete","chiudono"],
+      "passato_prossimo": "chius"
+    },
+    "scrivere": {
+      "presente": ["scrivo","scrivi","scrive","scriviamo","scrivete","scrivono"],
+      "passato_prossimo": "scritt"
+    },
+    "leggere": {
+      "presente": ["leggo","leggi","legge","leggiamo","leggete","leggono"],
+      "passato_prossimo": "lett"
+    },
+    "credere": {
+      "presente": ["credo","credi","crede","crediamo","credete","credono"],
+      "passato_prossimo": "credut"
+    },
+    "temere": {
+      "presente": ["temo","temi","teme","temiamo","temete","temono"],
+      "passato_prossimo": "temut"
+    },
+    "vivere": {
+      "presente": ["vivo","vivi","vive","viviamo","vivete","vivono"],
+      "passato_prossimo": "vissut"
+    },
+    "restare": {
+      "presente": ["resto","resti","resta","restiamo","restate","restano"],
+      "passato_prossimo": "restat"
+    },
+    "tornare": {
+      "presente": ["torno","torni","torna","torniamo","tornate","tornano"],
+      "passato_prossimo": "tornat"
+    },
+    "seguire": {
+      "presente": ["seguo","segui","segue","seguiamo","seguite","seguono"],
+      "passato_prossimo": "seguit"
+    },
+    "prendere": {
+      "presente": ["prendo","prendi","prende","prendiamo","prendete","prendono"],
+      "passato_prossimo": "pres"
+    },
+    "perdere": {
+      "presente": ["perdo","perdi","perde","perdiamo","perdete","perdono"],
+      "passato_prossimo": "pers"
+    },
+    "rompere": {
+      "presente": ["rompo","rompi","rompe","rompiamo","rompete","rompono"],
+      "passato_prossimo": "rott"
+    },
+    "costruire": {
+      "presente": ["costruisco","costruisci","costruisce","costruiamo","costruite","costruiscono"],
+      "passato_prossimo": "costruit"
+    },
+    "distruggere": {
+      "presente": ["distruggo","distruggi","distrugge","distruggiamo","distruggete","distruggono"],
+      "passato_prossimo": "distrutt"
+    },
+    "scoprire": {
+      "presente": ["scopro","scopri","scopre","scopriamo","scoprite","scoprono"],
+      "passato_prossimo": "scopert"
+    },
+      "essere": {
+      "presente": ["sono","sei","è","siamo","siete","sono"],
+      "passato_prossimo": "stato"
+    },
+    "avere": {
+      "presente": ["ho","hai","ha","abbiamo","avete","hanno"],
+      "passato_prossimo": "avuto"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+"vocali": ["a","e","i","o","u"],
+"consonanti": ["b", "c", "d", "f", "g", "h", "l", "m", "n", "p", "q", "r", "s", "t", "v", "z", "j", "k", "w", "x", "y"],
+"articoli_determinativi": {
+    "il": [
+        "singolare",
+        "maschile"
+    ],
+    "lo" : [
+        "singolare",
+        "maschile" 
+    ],
+    "la" : [
+        "singolare",
+        "maschile"
+    ],
+    "i" : [
+        "singolare",
+        "maschile"
+    ],
+    "gli" : [
+        "singolare",
+        "maschile"
+    ],
+    "le" : [
+        "singolare",
+        "maschile"
+    ]
+},
+"articoli_indeterminativi": {
+    "un": [
+        "singolare",
+        "maschile"
+    ],
+    "uno": [
+        "singolare",
+        "maschile"
+    ],
+    "una": [
+        "singolare",
+        "maschile"
+    ]
+},
+"preposizioni_semplici" : {
+    "di":[
+        "possesso",
+        "appartenenza",
+        "direzione_generica",
+        "luogo"
+    ],
+    "a": [
+        "spostamento_iniziale",
+        "luogo"
+    ],
+    "da": [
+        "spostamento_finale",
+        "luogo"
+    ],
+    "in": [
+        "appartenenza",
+        "luogo"
+    ],
+    "con": [
+        "insieme_a"
+    ],
+    "su": [
+        "direzione_su"
+    ],
+    "per": [
+        "appartenenza",
+        "direzione_generica",
+        "operazione_matematica"
+    ],
+    "tra": [
+        "appartenenza",
+        "luogo"
+    ],
+    "fra": [
+        "appartenenza",
+        "luogo"
+    ]
+},
+"preposizioni_articolate" : {
+
+    "elenco": ["del", "dello", "della", "dei", "degli", "delle"],
+    "prop": ["appartenenza", "partitivo"]
+
+},
+"aggettivi_possessivi": {
+    "mio": ["singolare", "maschile", "personale"],
+    "mia": ["singolare", "femminile", "personale"],
+    "miei": ["singolare", "personale", "multiplo"],
+    "suo": ["singolare", "terzo", "maschile"],
+    "sua": ["singolare", "terzo", "femminile"],
+    "suoi": ["singolare", "terzo", "multiplo"],
+    "loro": ["plurare", "terzo"]
+},
+"persone": ["io", "tu", "egli", "noi", "voi", "essi"]
+}

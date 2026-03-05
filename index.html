@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Story Generator Bot</title>
+
+<script src="https://cdn.jsdelivr.net/pyodide/v0.26.2/full/pyodide.js"></script>
+<script defer src="main.js"></script>
+
+<style>
+body{
+    font-family: sans-serif;
+    text-align:center;
+}
+
+#avatar{
+    width:220px;
+    image-rendering: pixelated;
+}
+
+#sentence{
+    font-size:22px;
+    margin:20px;
+}
+
+button{
+    font-size:18px;
+    margin:10px;
+    padding:10px 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Story Generator Bot</h1>
+
+<img id="avatar" src="images/think.png">
+
+<div id="sentence"></div>
+
+<button onclick="startThinking()">Ask the bot</button>
+
+<br>
+
+<button onclick="feedback(true)">👍 makes sense</button>
+<button onclick="feedback(false)">👎 nonsense</button>
+
+</body>
+</html>
