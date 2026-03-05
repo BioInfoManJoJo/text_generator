@@ -1,7 +1,7 @@
 
 ---
 
-# Python Sentence Generator executed client-side with Pyodide.
+# Python Sentence Generator client-side executed, with Pyodide.
 
 ### index.html
 
