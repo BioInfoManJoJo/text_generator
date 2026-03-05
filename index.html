@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
 <meta charset="UTF-8">
@@ -14,20 +15,22 @@
 
 <body>
 
-<div class="app">
+<div class="appCard">
 
 <header>
 
-<h1>Procedural Story Generator</h1>
+<h1 class="title">
+<span class="accent">›</span> Procedural Story Generator
+</h1>
 
 <p class="subtitle">
-Interactive procedural text generation (Python running in the browser)
+Python running directly in the browser
 </p>
 
 </header>
 
 
-<div class="main">
+<div class="layout">
 
 <!-- CHAT -->
 
@@ -35,11 +38,11 @@ Interactive procedural text generation (Python running in the browser)
 
 <div id="chatLog"></div>
 
-<div class="botStatus">
+<div class="botArea">
 
 <img id="avatar" src="images/think.png">
 
-<div id="typing" class="typing">Thinking...</div>
+<div id="typing" class="typing"></div>
 
 </div>
 
@@ -54,7 +57,7 @@ Interactive procedural text generation (Python running in the browser)
 </div>
 
 
-<!-- CODE PANEL -->
+<!-- CODE -->
 
 <div class="codePanel">
 
@@ -74,11 +77,12 @@ Interactive procedural text generation (Python running in the browser)
 
 <footer>
 
-Python executed client-side using Pyodide.
+Python executed client-side using Pyodide
 
 </footer>
 
 </div>
 
 </body>
+
 </html>
