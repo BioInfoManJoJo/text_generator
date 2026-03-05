@@ -1,7 +1,7 @@
 
 ---
 
-# File Description
+# Python Sentence Generator executed client-side with Pyodide.
 
 ### index.html
 
@@ -119,27 +119,13 @@ Pyodide allows Python to run inside the browser using WebAssembly.
 
 This means:
 
-- no backend server
 - instant deployment
-- fully client-side execution
+- freedom to use scientific libraries directly in the browser (as JupyterLite)
+- no backend server, fully client-side execution - means less latency, lower costs, scalability and security by design
 
 
 ---
 
-# Possible Future Improvements
-
-Some possible extensions:
-
-- reinforcement learning from feedback
-- improved grammar engine
-- larger vocabulary
-- story generation instead of single sentences
-- animated bot avatar
-- user interaction with prompts
-
-
----
-
-# Author
+# Info
 
 Created as a procedural generation and browser-Python experiment.
